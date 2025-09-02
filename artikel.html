@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel</title>
+</head>
+<body style="width: 70%; margin: 0 auto;">
+    <ul>
+        <li><a href="#pendahuluan">Pendahuluan</a></li>
+        <li><a href="#isi">Isi</a></li>
+        <li><a href="#penutup">Penutup</a></li>
+    </ul>
+
+    <h2 id="pendahuluan">Pendahuluan</h2>
+    <p>
+        Node.js merupakan platform yang diciptakan secara khusus untuk membantu pengembangan aplikasi berbasis web. Walau demikian, Node.js bukan bahasa pemrograman yang baru, tetapi runtime envinronment atau interpreter untuk menjalankan bahasa pemrograman JavaScript sebagai kebutuhan back-end developing.
+        Sebagai informasi, interpreter adalah perangkat lunak yang memiliki fungsi untuk melakukan proses eksekusi instruksi yang sudah ditulis dalam bahasa pemrograman. Sedangkan, JavaScript merupakan bahasa pemrograman yang digunakan bersamaan dengan HTML dan CSS untuk menghasilkan halaman web yang interaktif.
+        Dengan Node.js, kamu dapat menjalankan kode JavaScript di mana saja dan tidak terbatas pada lingkungan browser.
+        Adapun Node.js dibangun dengan engine JavaScript V8 milik Google sehingga Node.js memiliki performa yang tinggi. Node.js juga memiliki library sendiri. Dengan begitu, pengguna tak perlu menggunakan webserver NGINX maupun Apache.
+        Selain itu, Node.js juga mengusung model event-driven dan non-blocking I/O-nya sehingga lebih mampu menangani banyak proses secara bersamaan dibandingkan platform bersifat thread-based networking.
+        Walau demikian, Node.js dan JavaScript bukanlah hal yang sama dan tidak dapat dibandingkan satu sama lain. Sebab, Node.js bukan bahasa pemrograman, namun sebagai pendukung JavaScript agar lebih optimal digunakan terutama untuk keperluan yang lebih dari sekadar pengerjaan front-end.
+    </p>
+
+    <h2 id="isi">Isi</h2>
+    <p>
+        Node.js memiliki dua design pattern, yakni object pool dan façade. Adapun object pool merupakan design pattern yang berisi kumpulan objek yang dapat dimanfaatkan untuk task tertentu. Sementara itu, façade adalah design pattern yang memberi tampilan interface untuk body yang berbentuk kode.
+        Selain itu, Node.js juga menggunakan arsitektur “Single Threaded Event Loop” yang digunakan untuk menangani beberapa klien bersamaan dengan model pemrosesan yang didasarkan pada event-based JavaScript dan mekanisme callback ala JavaScript. Berikut adalah bagian-bagian arsitektur Node.js:
+        Requests, di mana request yang masuk dapat berupa blocking atau non-blocking, tergantung pada task yang akan dijalankan pengguna dalam aplikasi web.
+        Node.js server, server Node.js merupakan platform server-side yang menerima request dari user, lalu memproses permintaan, dan mengembalikan respon ke pengguna.
+        Event queue, bagian ini menyimpan request klien yang masuk dan meneruskan permintaan tersebut satu per satu ke dalam thread pool.
+        Thread pool, terdiri dari semua thread untuk melakukan berbagai task yang diperlukan untuk memenuhi permintaan klien.
+        Event loop, untuk menerima request dan memprosesnya, serta mengembalikan respon yang tepat ke klien.
+        External resources, diperlukan untuk menangani blocking request client. Resource ini dapat dimanfaatkan untuk komputasi, penyimpanan data, dan lain sebagainya.
+    </p>
+
+    <h2 id="penutup">Penutup</h2>
+    <p>
+        Node.js biasanya digunakan dalam pemrograman seperti aplikasi yang menggunakan program interface (API) JavaScript Object Notation (JSON), aplikasi single-page, dan aplikasi yang melakukan streaming data.
+        Adapun beberapa website dan aplikasi populer yang menggunakan Node.js di antaranya adalah Netflix, LinkedIn, dan Medium.
+        Nah, itulah penjelasan lengkap mengenai Node.js. Pada intinya, Node.js merupakan platform yang sering digunakan untuk mengembangkan aplikasi karena efisiensinya dalam mengelola data. Node.js juga sering disebut-sebut sebagai solusi cerdas bagi pengembangan aplikasi. Sebab, developer hanya perlu menguasai satu bahasa pemrograman untuk mengerjakan urusan frontend dan backend.
+    </p>
+</body>
+</html>
